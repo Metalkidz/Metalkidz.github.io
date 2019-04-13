@@ -1,0 +1,57 @@
+#TopNav {
+  width: 100% !important;
+  background-color: transparent !important;
+  padding: 30px 0 30px 0 !important;
+  font-family: "Fabrikat-Regular" !important;
+  border-bottom: 7px solid #daa520 !important;
+  text-transform: uppercase;
+}
+#TopNav1 {
+  width: 100% !important;
+  background-color: transparent !important;
+  padding: 30px 0 30px 0 !important;
+  font-family: "Fabrikat-Regular" !important;
+  text-transform: uppercase;
+}
+#BottomNav {
+  width: 100% !important;
+  background-color: transparent !important;
+  font-family: "Fabrikat-Regular" !important;
+  border-top: 10px solid #096b72 !important;
+  text-transform: uppercase;
+}
+/*
+.nav-item1:hover,
+.nav-item2:hover,
+.nav-item3:hover,
+.nav-item4:hover,
+.nav-item5:hover {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  border-left: 5px solid gray !important;
+  transition: all 400ms ease-out !important;
+}
+*/
+/* Hover DropDown */
+.nav-item1:hover #dropdown-menu-1,
+.nav-item2:hover #dropdown-menu-2,
+.nav-item3:hover #dropdown-menu-3,
+.nav-item4:hover #dropdown-menu-4,
+.nav-item5:hover #dropdown-menu-5 {
+  display: inline !important;
+}
+.col-md-3 {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.col-md-3:hover {
+  opacity: 0.7 !important;
+}
+#form-style {
+  border-left: 5px solid #666666 !important;
+}
+.header-image {
+  background-color: gray !important;
+  width: 1280px !important;
+  height: 400px !important;
+}
