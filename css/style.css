@@ -1,12 +1,12 @@
 #TopNav {
   width: 100% !important; 
-  background-image:  url(/img/ruler2.png);
+  background-image:  url(../img/ruler2.png);
     background-repeat: no-repeat;
   background-position: bottom;
   background-color:#fff !important;
   padding: 30px 0 30px 0 !important;
   font-family: "Fabrikat-Regular" !important;
-  border-bottom: 7px solid #daa520 !important;
+  border-bottom: 7px solid #006400 !important;
   text-transform: uppercase;
 }
 
@@ -21,9 +21,12 @@
 }
 #BottomNav {
   width: 100% !important;
+    background-image:  url(../img/cmyk2.png);
+background-repeat: no-repeat;
+  background-position: top;
   background-color: transparent !important;
   font-family: "Fabrikat-Regular" !important;
-  border-top: 10px solid #096b72 !important;
+  border-top: 10px solid #006400 !important;
   text-transform: uppercase;
 }
 /*
@@ -62,17 +65,50 @@
   height: 400px !important;
 }
 .rounded2{
-    border-radius: 25px!important;
     border: 2px solid white;
 }
 
+/*
 .nav-item active:after{
     border-bottom: 2px solid red;
 }
+*/
 
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    background-image: url(/img/cmyk.png);
+.nav-item .active li {
+    background-image: url(../img/cmyk.png);
     background-repeat: no-repeat;
     background-position: bottom;
   background-size: 100%;
+}
+
+ul > li.nav-item.active{
+    background-image: url(../img/cmyk2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+  background-size: 100%;
+   
+}
+
+.navbar .divider-vertical {
+    height: 50px;
+    margin: 0 9px;
+    border-right: 1px solid #ffffff;
+    border-left: 1px solid #f2f2f2;
+}
+
+.navbar-inverse .divider-vertical {
+    border-right-color: #222222;
+    border-left-color: #111111;
+}
+#modal1 > div > div > div.modal-body > div:nth-child(2) > div.col-md-12.text-center > a{
+    width:50%;
+    margin:auto;
+}
+#modal1 > div > div > div.modal-body > div:nth-child(2) > div.col-md-12.text-center > a:hover {
+    color: #fff;
+    background-color: #006400 !important;
+}
+
+body > div > div > div > div:nth-child(1) > img{
+    width: 100%;
 }
