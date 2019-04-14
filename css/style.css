@@ -112,3 +112,12 @@ ul > li.nav-item.active{
 body > div > div > div > div:nth-child(1) > img{
     width: 100%;
 }
+#modal2 > div > div > div.modal-body > div:nth-child(2) > div.col-md-12.text-center > button{
+    width:50%;
+    margin:auto;
+}
+
+#modal2 > div > div > div.modal-body > div:nth-child(2) > div.col-md-12.text-center > button:hover{
+     color: #fff;
+    background-color: #006400 !important;
+}
